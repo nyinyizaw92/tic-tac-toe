@@ -1,0 +1,28 @@
+$primary-bg : #00536D;
+$theme-color : #27aae1;
+
+.game-view{
+    width: 300px;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    > div{
+        width:33%;
+
+        input{
+            //display:none;
+        }
+
+        label{
+            font-family: 'Indie Flower', cursive;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            border: 1px solid red;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    
+}
